@@ -11,7 +11,7 @@ tags:
   const onSizeChange = val => {
     if (
       tableData.value.pagination.currentPage * val >
-      tableData.value.pagination.total
+      tableData.value.pagination.total && tableData.value.pagination.currentPage !== 1
     ) {
       // 比总数大的时候不走查询 只走分页查询
       return;
