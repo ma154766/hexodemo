@@ -5,6 +5,6 @@ upload.js
 *.log
 node_modules/
 public/
-public.rar
+public.zip
 .deploy*/
 _multiconfig.yml
